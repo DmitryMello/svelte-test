@@ -14,32 +14,6 @@
     <!--Pages will be injected below-->
     <slot></slot>
 </div>
-
-<script>
-    const nav =[
-    {
-    title: "обо мне",
-    href: "/about"
-    },
-    {
-    title: "Блог",
-    href: "/Blog"
-    },
-    {
-    title: "Портфолио",
-    href: "/project"
-    },
-    {
-    title: "Контакты",
-    href: "/contact"
-    },
-    {
-    title:"temp",
-    href:"/temp",
-}
-    ]
-    </script>
-
     <style>
         .container{
             max-width: 1400px;
