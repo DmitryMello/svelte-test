@@ -2,16 +2,11 @@
     <div class="nav-cotainer">
         <a href ="/" class="nav-logo" title="back to Hoepage">Николаев Дмитрий</a>
     <div class="nav=links">
-        {#each nav as link}
+        {#if link.isShow}
 
         <a href={link.href} class="link">{link.title}</a>
         
-        {/each}
-        {#if link.isShow}
-
-<a href={link.href} class="link">{link.title}</a>
-
-{/if}
+        {/if}
         </div>
     </div>
 </nav>
