@@ -7,6 +7,11 @@
         <a href={link.href} class="link">{link.title}</a>
         
         {/each}
+        {#if link.isShow}
+
+<a href={link.href} class="link">{link.title}</a>
+
+{/if}
         </div>
     </div>
 </nav>
