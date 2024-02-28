@@ -7,6 +7,7 @@
 <div class="container">
     <div class="info">
         <div class="animate-bacground">
+            <div class="container info-container">
             <div class="info-text">
                 <h1>
                     <p class="animate-text-1">Lorem ipsum dolor sit,</p>
@@ -22,6 +23,7 @@
                     <div class="arrow">⭢</div>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     </div>
