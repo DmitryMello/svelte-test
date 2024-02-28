@@ -2,8 +2,7 @@
     <div class="nav-cotainer">
         <a href ="/" class="nav-logo" title="back to Hoepage">Николаев Дмитрий</a>
     <div class="nav=links">
-        <!-- svelte-ignore missing-declaration -->
-        {#if link.isShow}
+        {#if nav as link.isShow}
 
         <a href={link.href} class="link">{link.title}</a>
         
