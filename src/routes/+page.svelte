@@ -4,7 +4,7 @@
 <svelte:head>
     <title>Дмитрий Николаев</title>
 </svelte:head>
-<div class="cotainer">
+<div class="container">
     <div class="info">
         <div class="animate-bacground">
             <div class="info-text">
@@ -17,7 +17,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusanium architecto aut, cupidiate dolores
                         ducimus expedita ladore nemo odio quidusdam qudem sapiente soluta.
                     </h2>
-                    <div style="color:black" class="sroll-button animate-scroll" tabindex="0">
+                    <div style="color:black" class="scroll-button animate-scroll" tabindex="0">
                     <a href ="/about">Click Here</a>
                     <div class="arrow">⭢</div>
                     </div>
@@ -64,7 +64,7 @@
     font-weight: 200;
     margin-top: 0.50rem;
 }
-.bacround-div{
+.backround-div{
     background-color: #ecebe8;
     width: 100%;
     height: 56vh;
