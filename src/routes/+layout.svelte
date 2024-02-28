@@ -15,14 +15,14 @@
     <slot></slot>
 </div>
 <script>
-    const nav =[
+    const nav = [
     {
     title: "обо мне",
     href: "/about"
     },
     {
     title: "Блог",
-    href: "/Blog"
+    href: "/blog"
     },
     {
     title: "Портфолио",
